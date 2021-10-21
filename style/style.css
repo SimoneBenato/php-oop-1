@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+}
+
+.container {
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 250px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    padding: 15px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    z-index: 1;
+}
